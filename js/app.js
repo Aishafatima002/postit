@@ -44,7 +44,7 @@ import {
           email: email,
           createdAt: serverTimestamp(),
         });
-  
+   console.log("User created successfully, showing SweetAlert...");
         Swal.fire("Success", "Account created successfully!", "success");
         window.location.href = "login.html"; // Redirect to login page
       } catch (error) {
